@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+	<configuration>
+		<stop-on-errors>true</stop-on-errors>
+		<date-format>MM/dd/yyyy HH:mm</date-format>
+		<wildcard>true</wildcard>
+	</configuration>
+
+	<mapping>
+		<class-a>br.com.bitwaysystem.entity.Pessoa</class-a>
+		<class-b>br.com.bitwaysystem.entity.People</class-b>
+		<field>
+			<a>idade</a>
+			<b>age</b>		
+		</field>
+		<field>
+			<a>nome</a>
+			<b>name</b>		
+		</field>
+	</mapping>
+</mappings>  
